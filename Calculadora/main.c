@@ -24,7 +24,7 @@ int main()
     if (op == '1')
     {
         printf("Ingresa dos números con los que quieres operar (num1 num2)\n");
-        scanf("&d %d", &a, &b);
+        scanf("%d %d", &a, &b);
         switch (op2)
         {
         case 1:
@@ -55,7 +55,7 @@ int main()
     else
     {
         printf("Ingresa dos números con los que quieres operar (num1 num2)\n");
-        scanf("&f %f", &f, &g);
+        scanf("%f %f", &f, &g);
         switch (op2)
         {
         case 1:
